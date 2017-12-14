@@ -51,6 +51,4 @@ def winner(board)
   board[combo[2]]
   #binding.pry
 
-    #binding.pry
-
 end
