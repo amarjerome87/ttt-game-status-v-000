@@ -47,7 +47,7 @@ end
 def winner(board)
   WIN_COMBINATIONS.detect do |win_combination|
 if won?(board)
-  return win_combination
+  return board[win_combination[0]]
 else
   false
 end
