@@ -48,9 +48,10 @@ end
 
 def winner(board)
   combo = won?(board) #[0,1,2]
-  board[combo[2]]
   #binding.pry
   if !board[combo[2]]
     return false
-  end 
+  else
+    board[combo[2]]
+  end
 end
