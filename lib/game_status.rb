@@ -45,6 +45,7 @@ def over?(board)
 end
 
 def winner(board)
+  binding.pry
   WIN_COMBINATIONS.detect do |win_combination|
 if won?(board)
   return board[win_combination[0]]
