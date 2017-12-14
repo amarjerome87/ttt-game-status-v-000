@@ -49,7 +49,7 @@ if won?(board) && win_combination == "X"
   return "X"
 elsif won?(board) && win_combination == "O"
   return "O"
-else 
-  false 
+else
+  false
 end 
 end
