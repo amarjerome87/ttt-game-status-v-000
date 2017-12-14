@@ -49,7 +49,7 @@ end
 def winner(board)
   combo = won?(board) #[0,1,2]
   board[combo[2]]
-  binding.pry
+  #binding.pry
 
     #binding.pry
 
